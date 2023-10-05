@@ -41,6 +41,7 @@ const Navbar = () => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
   const [rotate, setRotate] = useState(0);
+  console.log("hello");
   // const navigate=useNavigate();
 
   // const next=()=>{
