@@ -1,0 +1,145 @@
+.image {
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    
+}
+
+.nav {
+    background-color: rgb(239, 242, 242);
+    height: 60px;
+    position: fixed; /* Add this line */
+    top: 0; /* Stick it to the top of the viewport */
+    width: 100%; /* Make it full width */
+    z-index: 1000; /* Adjust the z-index if necessary */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+ 
+
+  /* Style the container for the input and dropdown */
+.input-container {
+    display: flex;
+    align-items: center;
+    /* margin-right: 55%; */
+   margin-left: 20px;
+  }
+  
+  .inputbox{
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    /* width: 100%; */
+  }
+
+  .inputbox:hover{
+    border-color: rgb(3, 180, 180);
+  }
+
+  .input2{
+    /* margin-right: 25%; */
+    margin-left: 20px;
+   display: flex;
+   align-items: center;
+  }
+
+  .i2{
+    height: 37px;
+    border: 2px solid black;
+    width: 80vh;
+  }
+
+  .custom-button {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+   /* margin-left: -20%; */
+   background-color: transparent;
+   border: none;
+   color: rgb(1, 50, 82);
+   font-size: 14px;
+   box-shadow: none;
+  }
+
+  .custom-button:hover{
+    color: rgb(1, 50, 82);
+  }
+  
+  .custom-button .anticon {
+    order: 1;
+  }
+  
+  .custom-button span {
+    order: 2;
+    margin-left: 8px; /* Add spacing between the icon and text */
+  }
+  
+
+  .l-but{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+  /* margin-left: -50%; */
+   background-color: transparent;
+   border: none;
+   color: rgb(1, 50, 82);
+   font-size: 14px;
+   box-shadow: none;
+  
+  }
+
+  .l-but:hover{
+       text-decoration: underline;
+  }
+
+  .sell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+    margin-right: 5%;
+    width: 85px;
+    color: rgb(1, 50, 82);
+    font-size: 14px;
+    height: 40px;
+    border-radius: 20px;
+
+    /* Set border colors for different sides */
+    border-top-color: yellow;
+    border-right-color: skyblue;
+    border-bottom-color: blue;
+    border-left-color: blue;
+    border-width: 4px; /* Set the border width */
+    border-style: solid; /* Set the border style */
+
+    /* Remove hover effect */
+    transition: border-color 0s;
+}
+
+.sell:hover {
+    border-color: yellow skyblue blue blue; /* Set the same colors as normal state */
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: row; /* Stack elements vertically on small screens */
+        /* Align items to the start on small screens */
+        padding: 10px; /* Add some padding for better spacing */
+    }
+
+    .input2 {
+        margin-top: 10px; /* Add margin between elements on small screens */
+    }
+
+    .i2 {
+        width: 100%; /* Make the input full width on small screens */
+    }
+}
