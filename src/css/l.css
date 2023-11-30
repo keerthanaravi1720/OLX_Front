@@ -1,0 +1,32 @@
+.login-email{
+    background-color: transparent;
+   
+    border: none;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.email-text{
+    background-color: rgb(255, 251, 234);
+    margin-top: 30px;
+   
+}
+
+.next-button1{
+    background-color: #000000;
+    border: none;
+    color: white;
+  }
+
+  .next-button1:hover{
+    background-color: transparent;
+    border: 2px solid black;
+
+  }
+
+  .footer{
+    font-size: 12px;
+    color:rgb(141, 143, 146);
+    text-align: center;
+    
+  }

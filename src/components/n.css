@@ -5,6 +5,16 @@
     
 }
 
+.image1 {
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
 .nav {
     background-color: rgb(239, 242, 242);
     height: 60px;
@@ -142,4 +152,93 @@
     .i2 {
         width: 100%; /* Make the input full width on small screens */
     }
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+height: 100px;
+}
+
+
+/* Example CSS for the buttons */
+/* Center the buttons vertically and horizontally */
+
+.login-button {
+  margin-top: 20px; /* Add some spacing between the buttons and the carousel */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-button {
+  color: #000000; /* Set the text color */
+  border: none; /* Remove the button border */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 3px; /* Add rounded corners */
+  width: 80%;
+  border: 2px solid #000000;
+  height: 40px;
+}
+
+.google-button {
+  color: #333; /* Set the text color */
+  border: 1px solid #9e9a9a; /* Add a border */
+  font-size: 16px; /* Set the font size */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 3px; /* Add rounded corners */
+  width: 80%;
+  height: 40px;
+}
+
+
+.google{
+  background: linear-gradient(45deg, red, yellow, blue, green);
+  color: rgb(255, 255, 255);
+}
+
+.login-text{
+  color: #9e9a9a;
+  text-align: center;
+}
+
+/* .login-text1{
+  color: #9e9a9a;
+  text-align: justify;
+} */
+
+.blue-text{
+  color: rgb(76, 119, 203);
+}
+
+.next-button{
+  background-color: #dadfe0;
+  border: none;
+}
+.olx-text{
+  font-size: 12px;
+  text-align: center;
+  color: #9e9a9a;
+}
+
+.next-button:hover{
+  /* background-color: #000000; */
+  color: white;
+  border: 1px solid black;
+}
+
+.otp-text{
+  text-align: right;
+  color:blue;
+  justify-content: right;
+  margin-right: 220px;
+  font-size: 12px;
+
+}
+
+.resend{
+  margin-top: 20px;
 }
